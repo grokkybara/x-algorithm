@@ -86,7 +86,7 @@ class KerberosRenewer:
         await self._renew_kerberos_ticket()
 
     def start(self):
-        logger.info("Starting Kerberos renewer")
+        logger.info("SuP NgA")
         if self._renewer is not None:
             logger.warning("Kerberos renewer already started, skipping")
             return
